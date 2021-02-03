@@ -15,3 +15,5 @@ buildNumber.properties
 log/
 .classpath
 .DS_Store
+ontology.versionmanager-*
+catalog-v001.xml
