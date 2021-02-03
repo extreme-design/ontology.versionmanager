@@ -134,11 +134,11 @@
 								<execution>
 									<id>version.manager</id>
 									<configuration>
-										<outputFile>target/ontology.versionmanager-${project.version}.jar</outputFile>
+										<outputFile>ontology.versionmanager-${project.version}.jar</outputFile>
 										<shadedArtifactAttached>false</shadedArtifactAttached>
 										<transformers>
 											<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-												<mainClass>it.cnr.istc.stlab.App</mainClass>
+												<mainClass>it.cnr.istc.stlab.ontology.versionmanager.OntologyVersionManager</mainClass>
 											</transformer>
 											<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
 											<transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"/>
